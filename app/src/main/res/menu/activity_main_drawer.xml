@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="কিতাব">
+            <menu>
+                <item
+                    android:id="@+id/nav_1"
+                    android:title="মাওলানা আশরাফ আলী থানভী রহ."
+                    />
+                <item
+                    android:id="@+id/nav_2"
+                    android:title="শাইখুল হাদীস যাকারিয়া রহ." />
+                <item
+                    android:id="@+id/nav_3"
+                    android:title="মুফতী শফী রহ." />
+                <item
+                    android:id="@+id/nav_4"
+                    android:title="মুফতী মনসূরুল হক দা.বা." />
+                <item
+                    android:id="@+id/nav_5"
+                    android:title="মুফতী তাকী উসমানী দা.বা." />
+                <item
+                    android:id="@+id/nav_6"
+                    android:title="অন্যান্য উলামাদের কিতাব" />
+            </menu>
+        </item>
+
+
+        <item android:title="বয়ান">
+            <menu>
+                <item
+                    android:id="@+id/nav_7"
+                    android:title="তাবলীগ" />
+                <item
+                    android:id="@+id/nav_8"
+                    android:title="তা‘লিম" />
+                <item
+                    android:id="@+id/nav_9"
+                    android:title="তাযকিয়া" />
+                <item
+                    android:id="@+id/nav_10"
+                    android:title="ফাতাওয়া" />
+                <item
+                    android:id="@+id/nav_11"
+                    android:title="মালফুযাত" />
+
+            </menu>
+        </item>
+
+        <item android:title="প্রবন্ধ">
+            <menu>
+                <item
+                    android:id="@+id/nav_12"
+                    android:title="আকাইদ" />
+                <item
+                    android:id="@+id/nav_13"
+                    android:title="সুন্নতী আমল" />
+                <item
+                    android:id="@+id/nav_14"
+                    android:title="লেনদেন" />
+                <item
+                    android:id="@+id/nav_15"
+                    android:title="বান্দার হক" />
+                <item
+                    android:id="@+id/nav_16"
+                    android:title="আত্মশুদ্ধি" />
+
+                <item
+                    android:id="@+id/nav_17"
+                    android:title="দ্বীনি মেহনত" />
+
+                <item
+                    android:id="@+id/nav_18"
+                    android:title="মুখোশ উন্মোচন" />
+
+                <item
+                    android:id="@+id/nav_19"
+                    android:title="সংক্ষিপ্ত জীবনী" />
+
+                <item
+                    android:id="@+id/nav_21"
+                    android:title="অন্যান্য" />
+
+            </menu>
+        </item>
+
+
+
+        <item
+            android:id="@+id/nav_20"
+            android:title="মাদ্রাসা" />
+
+        <item
+            android:title="ইস্তেমা"
+            android:id="@+id/nav_22" />
+
+
+
+        <item android:title="English">
+            <menu>
+                <item
+                    android:id="@+id/nav_26"
+                    android:title="Books" />
+                <item
+                    android:id="@+id/nav_27"
+                    android:title="Article" />
+                <item
+                    android:id="@+id/nav_28"
+                    android:title="Biography" />
+
+            </menu>
+        </item>
+
+        <item android:title="Other">
+            <menu>
+                <item
+                    android:id="@+id/nav_31"
+                    android:title="Settings">
+
+                </item>
+                <item
+                    android:id="@+id/nav_32"
+                    android:title="Rate this APP">
+
+                </item>
+
+                <item
+                    android:id="@+id/nav_29"
+                    android:title="Share this APP" />
+
+                <item
+                    android:id="@+id/nav_30"
+                    android:title="Developer's Zone" />
+            </menu>
+        </item>
+
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

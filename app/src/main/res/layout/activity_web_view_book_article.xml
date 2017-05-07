@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_web_view_book_article"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ListBackground"
+    tools:context="com.islamijindegi.islamijindegi.WebViewBookArticle">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:paddingTop="15dp"
+
+        android:textSize="20sp"
+        android:textColor="#00F"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:id="@+id/postTitleTextView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/writerTextView"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="sdf"
+        android:paddingTop="5dp"
+        android:layout_below="@id/postTitleTextView"
+        android:paddingBottom="10dp"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/writerTextView"
+        android:id="@+id/postWebView"
+        android:paddingTop="25dp"
+        >
+    </WebView>
+
+</RelativeLayout>

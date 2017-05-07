@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:minWidth="300dp"
+        android:layout_height="wrap_content"
+        android:text="বিভাগ"
+        android:id="@+id/typeLabel"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"
+        android:visibility="gone"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/typeSpinner"
+        android:spinnerMode="dialog"
+        style="@style/spinner_style_1"
+        android:layout_below="@id/typeLabel"
+        android:visibility="gone"
+
+        >
+    </Spinner>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:minWidth="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/select_subject"
+        android:id="@+id/catLabel"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/typeSpinner"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/catspinner"
+        android:spinnerMode="dialog"
+        style="@style/spinner_style_1"
+        android:layout_below="@id/catLabel"
+        >
+    </Spinner>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_below="@id/catspinner">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancle"
+            android:id="@+id/cancleBtn"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Ok"
+            android:id="@+id/okBtn"
+            android:layout_toRightOf="@id/cancleBtn"
+
+
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

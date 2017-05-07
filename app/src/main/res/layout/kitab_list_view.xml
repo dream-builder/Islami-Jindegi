@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#3dc44d"
+        android:textSize="18sp"
+        android:id="@+id/TitleTextView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:textColor="#939292"
+        android:textSize="14sp"
+        android:id="@+id/authorTextView"
+        android:layout_marginBottom="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            style="@style/iconSize"
+            android:padding="0dp"
+            android:src="@drawable/browser"
+            android:id="@+id/browserImageButton"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageButton
+            style="@style/iconSize"
+            android:padding="0dp"
+            android:src="@drawable/read"
+            android:id="@+id/readContentImageButton"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <ImageButton
+            style="@style/iconSize"
+            android:padding="0dp"
+            android:src="@drawable/downlaod"
+            android:id="@+id/downloadImageButton"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+
+
+            />
+
+        <ImageButton
+            style="@style/iconSize"
+            android:padding="0dp"
+            android:src="@drawable/open_file"
+            android:id="@+id/extFileImageButton"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <ImageButton
+            style="@style/iconSize"
+            android:padding="0dp"
+            android:src="@drawable/pdf"
+            android:id="@+id/ReadPdfImageButton"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageButton
+            style="@style/iconSize"
+            android:padding="0dp"
+            android:src="@drawable/play_button"
+            android:id="@+id/playImageButton"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+
+            />
+
+
+        <ImageButton
+            style="@style/iconSize"
+            android:padding="0dp"
+            android:src="@drawable/social_share"
+            android:id="@+id/shareImageButton"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+
+            />
+
+
+        <ImageButton
+            style="@style/iconSize"
+            android:padding="0dp"
+            android:src="@drawable/new_item"
+            android:id="@+id/newItem"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_salat_timing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="com.islamijindegi.islamijindegi.SalatTiming">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/salat_bg">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sunrise"
+            android:id="@+id/sunriseImg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sunriseTV"
+            android:layout_toRightOf="@id/sunriseImg"
+            android:text=""
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="#2e9904"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sunset"
+            android:id="@+id/sunsetImg"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/sunriseTV"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sunsetTV"
+            android:layout_toRightOf="@id/sunsetImg"
+            android:text=""
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="#2e9904"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        style="@style/salatLayout"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="ফজর"
+            style="@style/salatTxtStyle"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textAlignment="gravity"
+            android:text=""
+            android:id="@+id/fazarTV"
+
+            style="@style/salatTxtStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:weightSum="3"
+
+        style="@style/salatLayout">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="যুহর"
+            style="@style/salatTxtStyle"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textAlignment="gravity"
+            android:text=""
+            android:id="@+id/duhurTV"
+
+            style="@style/salatTxtStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        style="@style/salatLayout">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="আসর"
+            style="@style/salatTxtStyle"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textAlignment="gravity"
+            android:text=""
+            android:id="@+id/asarTV"
+            style="@style/salatTxtStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        style="@style/salatLayout">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="মাগরিব/ইফতার"
+            style="@style/salatTxtStyle"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textAlignment="gravity"
+            android:text=""
+            android:id="@+id/magribTV"
+            style="@style/salatTxtStyle"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        style="@style/salatLayout">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="'ইশা"
+            style="@style/salatTxtStyle"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:textAlignment="gravity"
+            android:text=""
+            android:id="@+id/ishaTV"
+            style="@style/salatTxtStyle"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/source"
+            android:text="সূত্র: www.aladhan.com"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
